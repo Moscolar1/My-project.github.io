@@ -15,27 +15,42 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    padding: 10px 20px;
+    width: 500px;
+    height: 700px;
     text-align: center;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 40px;
     margin: 0;
+    margin-top: 20px;
     color: #333;
 }
 
 img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
     margin-top: 10px;
+}
+
+a{
+    background-color: #a555ff;
+    color: white;
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    text-decoration:none;
+    width: fit-content;
+     
 }
 
 [data-testid="currentDayOfTheWeek"],
 [data-testid="currentUTCTime"],
 [data-testid="myTrack"] {
-    font-size: 18px;
+    font-size: 30px;
     color: #666;
-    margin: 10px 0;
+    margin: 30px 0;
 }
